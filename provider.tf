@@ -9,11 +9,11 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1"
+  region  = "us-east-1"
   profile = var.profile_name
   default_tags {
     tags = {
-      project = "pombo"
+      project     = "pombo"
       project_ref = "https://github.com/henriquemeloo/terraform-examples"
     }
   }

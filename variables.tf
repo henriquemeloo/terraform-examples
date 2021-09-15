@@ -1,2 +1,2 @@
-variable profile_name {}
-variable key_name {}
+variable "profile_name" {}
+variable "key_name" {}
